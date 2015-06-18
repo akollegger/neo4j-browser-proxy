@@ -1,0 +1,37 @@
+{
+  "name": "neo4j-browser-proxy",
+  "version": "1.0.0",
+  "description": "Simple nodejs proxy for Neo4j Browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neo4j"
+  ],
+  "author": "Andreas Kollegger",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-git": "^1.2.4",
+    "gulp-jade": "^1.0.1",
+    "gulp-replace": "^0.5.3",
+    "gulp-stylus": "^2.0.4",
+    "gulp-util": "^3.0.5",
+    "minimist": "^1.1.1",
+    "nib": "^1.1.0",
+    "run-sequence": "^1.1.0"
+  },
+  "dependencies": {
+    "koa": "^0.21.0",
+    "koa-body": "^1.2.1",
+    "koa-logger": "^1.2.2",
+    "koa-pixie-proxy": "^1.0.5",
+    "koa-router": "^5.1.2",
+    "koa-static": "^1.4.9"
+  }
+}
