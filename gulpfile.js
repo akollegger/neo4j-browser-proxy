@@ -15,7 +15,7 @@ var del = require('del');
 
 var knownOptions = {
   string: 'neo4j-branch',
-  boolean: 'verbose',
+  boolean: 'quiet',
   default: {
     'neo4j-branch': '2.3',
     'quiet': false

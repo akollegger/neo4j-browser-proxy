@@ -27,11 +27,14 @@
     "run-sequence": "^1.1.0"
   },
   "dependencies": {
+    "colors": "^1.1.2",
     "koa": "^0.21.0",
     "koa-body": "^1.2.1",
     "koa-logger": "^1.2.2",
     "koa-pixie-proxy": "^1.0.5",
     "koa-router": "^5.1.2",
-    "koa-static": "^1.4.9"
+    "koa-static": "^1.4.9",
+    "minimist": "^1.1.1",
+    "winston": "^1.0.0"
   }
 }

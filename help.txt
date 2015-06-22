@@ -1,0 +1,9 @@
+Usage:
+    $0 [options]
+
+Options:
+    -p, --port <port>  Port to use [9090] 
+    -n, --neo4j <url>  URL of target Neo4j
+    -l, --log <level>  log level [error, warn, info, verbose]
+    -s, --silent       silence all logging
+    -h, --help         print usage information
